@@ -27,19 +27,17 @@
 
   .pokemon-card__types{
     display: flex;
-    justify-content: center;
 
     .pokemon-card__type{
-      margin: 0 10px;
       border-radius: 3px;
-      line-height: 18px;
-      max-width: 110px;
-      margin: 0 1.5625% 0 0;
-      width: 38.4375%;
-      float: left;
-      text-transform: none;
       font-size: 11px;
+      line-height: 18px;
+      margin: 0 1.5625% 0 0;
+      max-width: 110px;
+      margin: 0 10px;
       text-align: center;
+      text-transform: capitalize;
+      width: 38.4375%;
 
     }
 
